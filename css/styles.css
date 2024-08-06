@@ -190,10 +190,6 @@ background-color: #404bbf;
     color: #2e2f42;
 }
 
-.desc{
-    margin-bottom: 8px;
-}
-
 .desc-list{
     display: flex;
     flex-direction: row;
@@ -225,6 +221,7 @@ background-color: #404bbf;
     gap: 24px;
     margin-bottom: 120px;
 }
+
 .team-item{
     background: #fff;
     width: calc((100% - 3 * 24px) / 4);
@@ -233,6 +230,15 @@ background-color: #404bbf;
     flex-direction: column;
     display: flex;
     gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.container-team{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
 
 .portfolio {
@@ -258,6 +264,7 @@ background-color: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .subtitle-section-team{
@@ -267,6 +274,7 @@ background-color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .text-subtitle{
