@@ -41,6 +41,9 @@ h1,h2,h3,h4,h5,h6,p{
     overflow: hidden;
 }
 
+img{
+    display: block
+}
 /* header */ 
 
 .page-header {
@@ -146,6 +149,7 @@ background-color: #2e2f42;
     margin-top: 188px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 48px;
     max-width: 496px;
 }
 
@@ -156,15 +160,17 @@ background-color: #2e2f42;
     cursor: pointer;
     letter-spacing: 0.04em;
     background: #4d5ae5;
-    margin-top: 48px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 188px;
-    display: flex;
+    display: block;
     align-items: flex-start;
     justify-content: flex-start;
     border-radius: 4px ;
     padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .button:hover,
@@ -184,6 +190,9 @@ background-color: #404bbf;
     color: #2e2f42;
 }
 
+.desc{
+    margin-bottom: 8px;
+}
 
 .desc-list{
     display: flex;
