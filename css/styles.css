@@ -254,6 +254,12 @@ background-color: #404bbf;
     gap: 24px;
 }
 
+.container-portfolio{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .img-team,
 .img-portfolio {
     background-color: url("path_to_image");
