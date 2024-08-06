@@ -24,7 +24,21 @@ h1,h2,h3,h4,h5,h6,p{
     max-width: 1158px;
     margin-right: auto;
     margin-left: auto;
-    padding: 0 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* header */ 
@@ -111,10 +125,16 @@ h1,h2,h3,h4,h5,h6,p{
     color: #404bbf;
 }
 
+
+/*main*/
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .section-title{
 background-color: #2e2f42;
 }
-
 
 .title{
     font-weight: 700;
@@ -123,25 +143,33 @@ background-color: #2e2f42;
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-top: 188px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 496px;
 }
 
 .button{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
     color: #fff;
     cursor: pointer;
     letter-spacing: 0.04em;
     background: #4d5ae5;
+    margin-top: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 188px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 4px ;
+    padding: 16px 32px;
 }
 
 .button:hover,
 .button:focus {
 background-color: #404bbf;
-}
-
-.section-team{
-    background-color: #f4f4fd;
 }
 
 .desc,
@@ -156,8 +184,59 @@ background-color: #404bbf;
     color: #2e2f42;
 }
 
+
+.desc-list{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: flex-start;
+}
+
+.desc-item {
+    width: calc((100% - 3 * 24px) / 4);
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    display: flex;
+}
+
+.section-team {
+    background-color: #f4f4fd;
+}
+
+.team{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 120px;
+}
 .team-item{
     background: #fff;
+    width: calc((100% - 3 * 24px) / 4);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    gap: 32px;
+}
+
+.portfolio {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .img-team,
