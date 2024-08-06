@@ -78,10 +78,6 @@ img{
     color: #2e2f42;
 }
 
-.footer-logo .logo-studio{
-    color: #f4f4fd;
-}
-
 .nav-link{
     font-weight: 500;
     font-size: 16px;
@@ -136,7 +132,9 @@ img{
     padding-bottom: 120px;
 }
 .section-title{
-background-color: #2e2f42;
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .title{
@@ -146,7 +144,6 @@ background-color: #2e2f42;
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-top: 188px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 48px;
@@ -162,7 +159,6 @@ background-color: #2e2f42;
     background: #4d5ae5;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 188px;
     display: block;
     align-items: flex-start;
     justify-content: flex-start;
@@ -207,6 +203,8 @@ background-color: #404bbf;
 
 .section-team {
     background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team{
@@ -219,7 +217,6 @@ background-color: #404bbf;
     display: flex;
     flex-direction: row;
     gap: 24px;
-    margin-bottom: 120px;
 }
 
 .team-item{
@@ -229,7 +226,6 @@ background-color: #404bbf;
     justify-content: center;
     flex-direction: column;
     display: flex;
-    gap: 32px;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -252,6 +248,7 @@ background-color: #404bbf;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .container-portfolio{
@@ -296,14 +293,30 @@ background-color: #404bbf;
     text-align: center;
 }
 
-.page-footer{
-    background: #2e2f42;
+.container-footer{
 }
 
-.text-fotter-page{
+.page-footer{
+    background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-logo .logo-studio {
+    color: #f4f4fd;
+}
+
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.text-footer-page{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
+
 
